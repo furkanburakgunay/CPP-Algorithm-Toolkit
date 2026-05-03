@@ -28,12 +28,23 @@ A collection of high-performance algorithms and mathematical tools developed in 
 ---
 ## 📸 Preview / Önizleme
 ![Algoritma Seti Konsol Ekranı](furkan_cpp_project.png)
-*Matematiksel hesaplamalar ve veri sıralama işlemlerinin ekran görüntüsü.*
+*🇺🇸 Technical demonstration of mathematical calculations and STL sorting.*
+*🇹🇷 Matematiksel hesaplamaların ve STL sıralama işlemlerinin teknik gösterimi.*
 
 ## 🚀 How to Run / Nasıl Çalıştırılır
-1. **Compiler:** C++11 veya üstünü destekleyen bir derleyici gereklidir (G++ gibi).
-2. **Compile:** Terminale şu komutu girin:
+
+### 🇺🇸 English
+1. **Compiler:** A compiler supporting C++11 or higher is required (e.g., G++).
+2. **Note for Dev-C++ Users:** If you get an error, go to *Tools -> Compiler Options* and add `-std=c++11` to the compiler commands.
+3. **Compile:** Run the following command in terminal:
    `g++ muhendislik.cpp -o muhendislik`
-3. **Run:** Programı başlatın:
+4. **Run:** Start the program:
+   `./muhendislik` (or `muhendislik.exe` on Windows)
+
+### 🇹🇷 Türkçe
+1. **Derleyici:** C++11 veya üstünü destekleyen bir derleyici gereklidir (G++ gibi).
+2. **Dev-C++ Kullanıcıları İçin:** Hata alırsanız, *Araçlar -> Derleyici Seçenekleri* kısmına gidip komutlara `-std=c++11` ekleyin.
+3. **Derleme:** Terminale şu komutu girin:
+   `g++ muhendislik.cpp -o muhendislik`
+4. **Çalıştırma:** Programı başlatın:
    `./muhendislik` (Windows için `muhendislik.exe`)
-4. **Library:** Bu proje standart kütüphaneleri (`iostream`, `vector`, `algorithm`, `cmath`) kullanır, harici bir kütüphane yüklemenize gerek yoktur.
